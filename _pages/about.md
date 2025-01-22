@@ -21,7 +21,7 @@ Yifan is currently pursuing Master degree (supervised by [Quan Li](https://facul
 
 
 
-# 🎖 Honors and Awards (selected)
+# 🎖 Honors and Awards
 - *2023.05* ICPC Invitation Contest(Xi'an), Gold Medal
 - *2021.12* ICPC Regional Contest(Nanjing), Silver Medal
 - *2021.11* ICPC Regional Contest(Jinan), Silver Medal
