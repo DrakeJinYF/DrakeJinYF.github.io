@@ -20,21 +20,18 @@ redirect_from:
 Yifan is currently pursuing Master degree (supervised by [Quan Li](https://faculty.sist.shanghaitech.edu.cn/liquan/)) at the [School of Information Science and Technology](https://sist.shanghaitech.edu.cn/), ShanghaiTech University.
 
 
-<!---
-# 🎖 Honors and Awards  
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
---->
+
+# 🎖 Honors and Awards (selected) 
+- *2023.05* ICPC Invitation Contest(Xi'an), Gold Medal
+- *2021.12* ICPC Regional Contest(Nanjing), Silver Medal
+- *2021.11* ICPC Regional Contest(Jinan), Silver Medal
+- *2021.07* ICPC Regional Contest(Shenyang), Silver Medal
+- *2021.06* ICPC Invitation Contest(Xi'an), Silver Medal
 
 # 📖 Educations
 - *2024.09 - present*, Master, ShanghaiTech University, Shanghai
 - *2020.09 - 2024.06*, Undergraduate, Nanjing University of Posts and Telecommunications, Nanjing
 
-<!---
-# 💬 Invited Talks 
-- *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.03*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. \| [\[video\]](https://github.com/) 
---->
 
 # 💻 Internships
 - *2023.09 - 2024.06*, Bena, Hangzhou
