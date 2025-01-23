@@ -34,4 +34,4 @@ Yifan is currently pursuing Master degree (supervised by [Quan Li](https://facul
 
 
 # 💻 Internships
-- *2023.09 - 2024.06*, Bena, Hangzhou
+- *2023.09 - 2024.06*, Bena Technologies, Inc., Hangzhou
