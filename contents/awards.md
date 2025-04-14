@@ -1,0 +1,5 @@
+- *2023.05* ICPC Invitation Contest(Xi'an), Gold Medal
+- *2021.12* ICPC Regional Contest(Nanjing), Silver Medal
+- *2021.11* ICPC Regional Contest(Jinan), Silver Medal
+- *2021.07* ICPC Regional Contest(Shenyang), Silver Medal
+- *2021.06* ICPC Invitation Contest(Xi'an), Silver Medal

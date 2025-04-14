@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yifan Jin's HomePage</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="static/portrait.jpg" alt="portrait" class="portrait">
+            <h1>Yifan Jin</h1>
+            <nav>
+                <ul>
+                    <li><a href="#intro"></a></li>
+                    <!-- <li><a href="#publications">Publications</a></li> -->
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#educations">Educations</a></li>
+                    <li><a href="#interns">Interns</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="intro">
+            <div id="intro-content"></div>
+        </section>
+        <!-- <section id="publications">
+            <h2>Publications</h2>
+            <div id="publications-content"></div>
+        </section> -->
+        <section id="awards">
+            <h2>🎖 Awards</h2>
+            <div id="awards-content"></div>
+        </section>
+        <section id="educations">
+            <h2>📖 Educations</h2>
+            <div id="educations-content"></div>
+        </section>
+        <section id="interns">
+            <h2>💻 Interns</h2>
+            <div id="interns-content"></div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Yifan Jin. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script>
+        async function loadMarkdown(file, elementId) {
+            const response = await fetch(`contents/${file}`);
+            const markdown = await response.text();
+            document.getElementById(elementId).innerHTML = marked.parse(markdown);
+        }
+
+        loadMarkdown('intro.md', 'intro-content');
+        // loadMarkdown('publications.md', 'publications-content');
+        loadMarkdown('awards.md', 'awards-content');
+        loadMarkdown('educations.md', 'educations-content');
+        loadMarkdown('interns.md', 'interns-content');
+    </script>
+</body>
+</html>

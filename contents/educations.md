@@ -1,0 +1,2 @@
+- *2024.09 - present*, Master, ShanghaiTech University, Shanghai
+- *2020.09 - 2024.06*, Undergraduate, Nanjing University of Posts and Telecommunications, Nanjing
