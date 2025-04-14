@@ -51,19 +51,34 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="static/marked.min.js"></script>
     <script>
-        async function loadMarkdown(file, elementId) {
-            const response = await fetch(`contents/${file}`);
-            const markdown = await response.text();
-            document.getElementById(elementId).innerHTML = marked.parse(markdown);
-        }
+        document.addEventListener('DOMContentLoaded', () => {
+            if (typeof marked === 'undefined') {
+                console.error('marked library is not loaded');
+                document.querySelectorAll('#publications-content, #awards-content, #interns-content')
+                    .forEach(el => el.innerHTML = '<p>Error: Unable to load content.</p>');
+                return;
+            }
 
-        loadMarkdown('intro.md', 'intro-content');
-        // loadMarkdown('publications.md', 'publications-content');
-        loadMarkdown('awards.md', 'awards-content');
-        loadMarkdown('educations.md', 'educations-content');
-        loadMarkdown('interns.md', 'interns-content');
+            async function loadMarkdown(file, elementId) {
+                try {
+                    const response = await fetch(`contents/${file}`);
+                    if (!response.ok) throw new Error(`Failed to load ${file}`);
+                    const markdown = await response.text();
+                    document.getElementById(elementId).innerHTML = marked.parse(markdown);
+                } catch (error) {
+                    console.error(`Error loading ${file}:`, error);
+                    document.getElementById(elementId).innerHTML = `<p>Error loading ${file}</p>`;
+                }
+            }
+
+            loadMarkdown('intro.md', 'intro-content');
+            // loadMarkdown('publications.md', 'publications-content');
+            loadMarkdown('awards.md', 'awards-content');
+            loadMarkdown('educations.md', 'educations-content');
+            loadMarkdown('interns.md', 'interns-content');
+        });
     </script>
 </body>
 </html>
